@@ -63,6 +63,7 @@ h6 {
 .dark-background {
   background-color: #020819;
   color: white;
+  
 }
 .text {
   font-size: 2em;
@@ -101,3 +102,23 @@ width: 250px;
 height: 180px;
 
 }
+.dark-background footer {
+ font-size: 1.9em;
+ text-align: center;
+}
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+
+}
+.footer {
+  text-align: center;
+  font-size: 1.9em;
+}
+.footer a {
+  color: blue;
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  padding: 0; 
