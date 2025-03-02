@@ -47,9 +47,9 @@ h4 {
   margin-bottom: 15px;
 }
 h5 {
-font-size: 1.2em;
-line-height: 1em;
-
+  font-size: 1.2em;
+  line-height: 1em;
+  margin: 0;
 }
 h6 {
   font-family:Roboto Condensed;
@@ -141,9 +141,16 @@ h6 {
   margin: 20px auto 30px auto;
   width: 40%;
 }
-.schedule-table{
+.schedule-table {
   margin-top: 0 auto 40px auto;
   font-size: 1.5em;
+}
+.schedule-table th,
+td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+
 }
 
 .dark-background footer {
@@ -153,11 +160,15 @@ h6 {
 .address {
   font-style: normal;
   font-size: 0.8em;
+  margin-bottom: 30px;
 
 }
 .footer {
   text-align: center;
   font-size: 1.9em;
+  padding: 40px 100px 40px 100px;
+  margin-bottom: 25px;
+
 }
 .footer a {
   color: blue;
@@ -166,6 +177,7 @@ h6 {
 .footer ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 .container {
   width: 1200px;
