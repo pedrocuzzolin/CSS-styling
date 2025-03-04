@@ -15,10 +15,37 @@ body {
   background-size: cover;
   height: 650px;
   padding-top: 50px;
+  position: relative;
 
 }
+#general-information { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+#general-information .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 370px;
+} 
+.link-btn {
+    background-color: blue;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+
 .quote {
   font-size: 2.5em;
+  position: absolute;
+  left: 10%;
+  bottom: 100px;
 }
 
 h1  {
@@ -58,11 +85,13 @@ h6 {
   background-color: darkblue;
   padding-top: 14px;
   padding-bottom: 14px;
-  
+
 }
 .nav-bar-ul {
   width: 1200px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
 
 }
 .nav-bar-ul li {
@@ -88,15 +117,7 @@ h6 {
 
 }
 
-.link-btn {
-  background-color: blue;
-  color: white;
-  font-family: "Roboto Condensed";
-  font-size: 2em;
-  letter-spacing: 0.5px;
-  text-align: center;
-  text-decoration: none;
-}
+
 .service-box {
   font-size: 1.7em;
   text-align: center;
