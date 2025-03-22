@@ -191,9 +191,11 @@ h6 {
 }
 
 .schedule-table {
-  margin-top: 0 auto 40px auto;
+  margin: 0 auto 40px auto;
   font-size: 1.5em;
+ 
 }
+
 .slot-form-container {
   width: 40%;
   margin: 18px auto 0 auto;
@@ -210,9 +212,23 @@ h6 {
   outline: none;
   padding: 3px;
   width: 100%;
-}  
-.schedule-table th,
-td {
+}
+
+.slot-form-container button {
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin-top: 15px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.slot-form-container button:hover {
+  background-color: black;
+  color: white;
+}
+.schedule-table th, td {
   border-bottom: 1px solid black;
   padding: 5px 10px 5px 10px;
   text-align: center;
