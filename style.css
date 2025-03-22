@@ -35,7 +35,7 @@ body {
 }
 
 .link-btn {
-  background-color: blue;
+  background-color: rgb(67, 163, 230);
   color: white;
   font-family: "Roboto Condensed";
   font-size: 2em;
@@ -114,7 +114,7 @@ h6 {
 }
 
 .dark-background {
-  background-color: #020819;
+  background-color: rgb(25, 33, 41);
   color: white;
 }
 
@@ -258,7 +258,7 @@ h6 {
 }
 
 .footer a {
-  color: blue;
+  color: rgb(67, 163, 230);
   text-decoration: none;
 }
 
