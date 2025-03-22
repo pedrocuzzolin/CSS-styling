@@ -90,7 +90,7 @@ h6 {
 }
 
 .nav-bar {
-  background-color: darkblue;
+  background-color: rgb(25, 33, 41);
   padding-top: 14px;
   padding-bottom: 14px;
 }
@@ -108,6 +108,8 @@ h6 {
 }
 
 .nav-bar a {
+  font-size: 2em;
+  text-decoration: none;
   color: white;
 }
 
